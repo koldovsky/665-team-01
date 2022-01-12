@@ -1,0 +1,140 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+/*------------VITALII ZAICHUK start--------*/
+
+.block-top__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 42px;
+}
+.block-top__title {
+    color: #757575;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+.block-top__adress a {
+    color: #757575;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: #f8b803;
+}
+.header__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+}
+.header__logo {
+    flex: 0 0 200px;
+}
+
+.header__logo img {
+    max-width: 100%;
+    display: block;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.header__list li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.header__link-social {
+    color: #fff;
+    margin-left: 10px;
+    padding: 2px;
+    border: 1px solid #fff;
+}
+.main {
+    background: url('../img/image-main.jpeg') no-repeat center center;
+    background: cover;
+    height: 110vh;
+}
+
+.main-block {
+    padding: 210px 0px;
+}
+
+.main-block h1 {
+    color: #f8b803;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-block__subtitle{
+    max-width: 570px;
+}
+.main-block__subtitle p {
+    color: #242424;
+    font-size: 54px;
+    font-family: 'Work Sans', sans-serif;
+}
+.main-block__subtitle span {
+    color: #f8b803;
+}
+
+.main-block__p {
+    color: #777777;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 20px;
+}
+
+.main-block__p span {
+    color: #669904;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main-block__btn {
+    position: relative;
+    top: 75px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8b803;
+    width: 140px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.main-block__btn a {
+    color: #fff;
+    font-size: 15.4px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+/*------------VITALII ZAICHUK ends--------*/
