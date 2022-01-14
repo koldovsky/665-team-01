@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
 *, *::after, *::before {
     padding: 0;
     margin: 0;
@@ -99,31 +101,31 @@
     border: 1px solid #fff;
 }
 
-.main {
+.page {
     background: url('../img/image-main.jpeg') no-repeat center center;
     background: cover;
     height: 110vh;
 }
 
-.main-block {
+.page-block {
     padding: 210px 0px;
 }
 
-.main-block h1 {
+.page-block h1 {
     color: #f8b803;
     font-size: 12px;
     font-family: 'Work Sans', sans-serif;
 }
-.main-block__subtitle{
+.page-block__subtitle{
     max-width: 570px;
 }
-.main-block__subtitle p {
+.page-block__subtitle p {
     color: #242424;
     font-size: 54px;
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
 }
-.main-block__subtitle span {
+.page-block__subtitle span {
     color: #f8b803;
 }
 .devider {
@@ -134,20 +136,20 @@
     top: 10px;
 }
 
-.main-block__p {
+.page-block__p {
     color: #777777;
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;
     padding-top: 20px;
 }
 
-.main-block__p span {
+.page-block__p span {
     color: #669904;
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
 }
 
-.main-block__btn {
+.page-block__btn {
     position: relative;
     top: 75px;
     display: inline-flex;
@@ -159,7 +161,7 @@
     border-radius: 5px;
 }
 
-.main-block__btn a {
+.page-block__btn a {
     color: #fff;
     font-size: 15.4px;
     font-family: 'Work Sans', sans-serif;
@@ -176,10 +178,6 @@
 .services__column {
     padding: 45px;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-}
-
-.services__item {
-    
 }
 
 .item-services__icon {
