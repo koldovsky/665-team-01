@@ -25,13 +25,6 @@
 .page-block__subtitle span {
     color: #f8b803;
 }
-.devider {
-    width: 60px;
-    height: 3px;
-    background-color: #f8b803;
-    position: relative;
-    top: 10px;
-}
 
 .page-block__p {
     color: #777777;
