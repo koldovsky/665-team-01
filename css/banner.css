@@ -1,45 +1,45 @@
-.page {
+.banner {
     background: url('../img/image-main.jpeg') no-repeat center center;
     background: cover;
     height: 110vh;
 }
 
-.page-block {
+.banner-block {
     padding: 210px 0px;
 }
 
-.page-block h1 {
+.banner-block h1 {
     color: #f8b803;
     font-size: 12px;
     font-family: 'Work Sans', sans-serif;
 }
-.page-block__subtitle{
+.banner-block__subtitle{
     max-width: 570px;
 }
-.page-block__subtitle p {
+.banner-block__subtitle p {
     color: #242424;
     font-size: 54px;
     font-family: 'Work Sans', sans-serif;
     font-weight: bold;
 }
-.page-block__subtitle span {
+.banner-block__subtitle span {
     color: #f8b803;
 }
 
-.page-block__p {
+.banner-block__p {
     color: #777777;
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;
     padding-top: 20px;
 }
 
-.page-block__p span {
+.banner-block__p span {
     color: #669904;
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
 }
 
-.page-block__btn {
+.banner-block__btn {
     position: relative;
     top: 75px;
     display: inline-flex;
@@ -51,7 +51,7 @@
     border-radius: 5px;
 }
 
-.page-block__btn a {
+.banner-block__btn a {
     color: #fff;
     font-size: 15.4px;
     font-family: 'Work Sans', sans-serif;
