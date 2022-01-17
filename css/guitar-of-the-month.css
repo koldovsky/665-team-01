@@ -1,0 +1,33 @@
+
+.guitar-of-the-month-block h2 {
+    color: var(--yellow-color);
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.guitar-of-the-month-name {
+    font-size: 54px;
+    color: var(--main-color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.guitar-of-the-month-name span {
+    font-size: 54px;
+    color: var(--yellow-color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.guitar-of-the-month-text {
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.guitar-of-the-month-photo {
+    width: 150px;
+}
