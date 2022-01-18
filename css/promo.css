@@ -1,0 +1,89 @@
+.promo {    
+    background-image: url(../img/promo/promo-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    padding: 90px 0;    
+    }
+
+.promo-content{
+    width: 400px;
+}
+
+.promo__header {
+    display: flex;
+    flex-direction: column;    
+    }
+
+.promo__header h2,
+.promo__product-card-type {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.75em;
+    color: var(--yellow-color);
+}
+
+.promo__main {
+    font-size: 2.125em;
+    color: white;
+    padding-top: 10px;
+}
+
+.promo__footer {
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+}
+
+.promo__product-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+           
+.promo__product-card{   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    background: rgba(255, 255, 255, 0.04);
+    padding: 31px 27px;
+    margin: 15px 15px;
+    }
+}
+.promo__product-card-name{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    padding-top: 10px;
+}
+.promo__product-card-photo{
+
+}
+.promo__product-card-price{
+    color: var(--price-color);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.promo__product-card-view-details{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.promo__product-card a:hover {
+    text-decoration: underline;
+}
+
+.highlighter {
+    color: var(--yellow-color);
+}
+
+.divider-component {
+    width: 60px;
+    height: 3px;
+    background-color: var(--yellow-color);
+    position: relative;
+    top: 10px;
+}
