@@ -4,16 +4,17 @@
     background-size: cover;
     background-position: center;
     font-size: 16px;
-    padding: 90px 0;    
+    padding: 90px 0;  
     }
 
 .promo-content{
-    width: 400px;
+    padding: 0 24px;
 }
 
 .promo__header {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    margin: 0 15px;    
     }
 
 .promo__header h2,
@@ -24,7 +25,7 @@
 }
 
 .promo__main {
-    font-size: 2.125em;
+    font-size: 34px;
     color: white;
     padding-top: 10px;
 }
@@ -35,11 +36,8 @@
     padding-top: 10px;
 }
 
-.promo__product-cards{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+/* .promo__product-cards { } */
+        
            
 .promo__product-card{   
     display: flex;
@@ -48,8 +46,8 @@
     background: rgba(255, 255, 255, 0.04);
     padding: 31px 27px;
     margin: 15px 15px;
-    }
-}
+        }
+
 .promo__product-card-name{
     font-size: 22px;
     font-weight: 500;
@@ -57,7 +55,7 @@
     padding-top: 10px;
 }
 .promo__product-card-photo{
-
+    width: 100%;
 }
 .promo__product-card-price{
     color: var(--price-color);
@@ -70,6 +68,7 @@
     font-weight: 700;
     color: white;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .promo__product-card a:hover {
