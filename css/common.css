@@ -3,6 +3,7 @@
 :root {
     --main-color: #242424;
     --yellow-color: rgb(248, 184, 3);
+    --price-color: rgb(102, 153, 4);
 }
 
 *, *::after, *::before {
