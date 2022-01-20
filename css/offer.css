@@ -1,0 +1,94 @@
+.offer__body {
+    display: flex;
+    margin: 60px -15px 60px -15px;
+}
+
+.offer__column {
+    padding: 0px 15px;
+}
+
+
+
+.offer__item {
+    height: 100%;
+    padding: 35px;
+}
+
+.item-offer-drum {
+    background: url('../img/offer/drum-offer.jpg') 0 0/cover no-repeat;
+    width: 570px;
+    height: 370px;
+}
+
+.item-offer-guitar {
+    background: url('../img/offer/guitar-offer.jpg') -245px 0/cover no-repeat;
+    width: 570px;
+    height: 370px;
+}
+
+.item-offer-drum__title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.75em;
+    color: var(--yellow-color);
+    text-align: center;
+    margin: 25px 0 15px 0;
+}
+
+.item-offer-drum__subtitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.item-offer-drum__subtitle span {
+    color: #f8b803;
+}
+.item-offer-drum__text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0 0 0;
+    line-height: 2px;
+}
+
+.item-offer-drum__btn {
+    position: relative;
+    top: 75px;
+    left: 185px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8b803;
+    width: 140px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.item-offer-drum__btn a {
+    color: #fff;
+    font-size: 15.4px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+.item-offer-guitar__title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.75em;
+    color: var(--yellow-color);
+    margin: 90px 0 0 0;
+}
+
+.item-offer-guitar__subtitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    color: #242424;
+    font-weight: 600;
+    margin: 15px 0 0 0;
+}
+
+.item-offer-guitar__subtitle span {
+    color: #f8b803;
+}
