@@ -1,9 +1,10 @@
 .guitar-of-the-month {
     background-image: url(../img/guitar-of-the-month/guitar-of-the-month-background.webp);
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: 70% 50%;
     background-size: cover;
-    background-position: center;
+    padding: 90px 0;
+    margin: 30px 0;
 }
 
 .guitar-of-the-month-text-block-title {
@@ -14,10 +15,12 @@
 }
 
 .guitar-of-the-month-text-block-name {
-    font-size: 54px;
+    font-size: 48px;
     color: #fff;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
+    line-height: 1.2 !important;
+    margin-top: 20px;
 }
 
 .guitar-of-the-month-text-block-name span {
@@ -33,11 +36,20 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     padding-top: 20px;
+    line-height: 1.5 !important;
+    margin-top: 5px;
+}
+
+.guitar-of-the-month-text-block-description-second {
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5 !important;
 }
 
 .guitar-of-the-month-photo {
-    width: 150px;
-    max-width: 100%;
+    width: 43%;
 }
 
 .guitar-of-the-month-img {
@@ -47,7 +59,22 @@
 
 .guitar-of-the-month-content {
     min-width: 320px;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
 }
 
+@media (min-width: 768px) {
+    .guitar-of-the-month-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .guitar-of-the-month {
+        padding: 105px 0;
+    }
+}
+
+.guitar-of-the-month-text-block {
+    margin-top: 50px;
+}
