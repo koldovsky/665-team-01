@@ -1,13 +1,18 @@
+@media (min-width: 768px){
 .best-selling__header {
     color: #f8b803;
     font-size: 12px;
     font-family: 'Work Sans', sans-serif;
+    display: flex;
+    align-items: center;
 }
 .best-selling__title {
     color: #242424;
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     font: weight 400px;
+    display: flex;
+    align-items: center;
 }
 .best-selling__title span{
     color: #f8b803;
@@ -22,11 +27,11 @@
     height: 2px;
     background-color: var(--yellow-color);
     position: relative;
-    top: 10px;
 }
 
 .preview-img{
     width: 300px;
+    
 }
 .best-selling__subheading{
     color: #777777;
