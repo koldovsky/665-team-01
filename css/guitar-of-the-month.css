@@ -1,10 +1,11 @@
 .guitar-of-the-month {
     background-image: url(../img/guitar-of-the-month/guitar-of-the-month-background.webp);
     background-attachment: fixed;
-    background-position: 70% 50%;
+    background-position: 90% 50%;
     background-size: cover;
     padding: 90px 0;
     margin: 30px 0;
+    background-image: rgba(0, 0, 0, 0.5);
 }
 
 .guitar-of-the-month-text-block-title {
@@ -72,6 +73,23 @@
 
     .guitar-of-the-month {
         padding: 105px 0;
+    }
+
+    .guitar-of-the-month-img {
+        flex-basis: 42%;
+        max-width: 42%;
+    }
+
+    .guitar-of-the-month-text-block {
+        display: flex;
+        flex-basis: 58%;
+        max-width: 58%;
+        flex-direction: column;
+    }
+
+    .guitar-of-the-month-photo {
+        object-fit: contain;
+        object-position: 50% 50%;
     }
 }
 
