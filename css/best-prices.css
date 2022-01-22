@@ -7,20 +7,25 @@
 .best-prices__header{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
     }
 
 .best-prices__tab-nav{
     margin-top: 45px;
-    display: flex;
-    justify-content: center;
-    width: calc(100% + 30px);   
+    display: flex;   
+    width: calc(100%+30px);
     overflow: scroll;
-}
+}    
 
 .best-prices__product-cards{
     display: grid;
     grid-template-columns: 1fr;    
+}
+
+@media (min-width: 657px){
+    .best-prices__tab-nav{
+         justify-content: center;
+    }
 }
 
 @media (min-width: 768px){
