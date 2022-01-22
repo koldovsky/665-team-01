@@ -4,7 +4,7 @@
     font-family: "Work Sans", sans-serif;   
     background-color: #fafafa;
     min-width: 320px;
-    margin-top: 60px;
+    margin-top: 60px;   
     margin-bottom: 90px;
 }
 
@@ -12,7 +12,9 @@
     .drum-set__content {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;        
+        align-items: center;
+        gap: 15px;
+        margin: 60px 15px 90px 15px;           
     }
     .drum-set__image img{
         padding: 30px 20px;
@@ -20,15 +22,23 @@
     .drum-set__image img{
         max-width: 800px;               
     }
+    .drum-set__btn{ 
+        white-space: nowrap;
+    } 
+    .drum-set__description-text{
+        width: 45em;
+    }   
 }
 
 .drum-set__description-text{
-    padding: 33px 39px;
-}
+padding: 33px 39px;
+    }
 
 .drum-set__discount-price{    
     padding: 31px 27px;
-}
+    display: flex;
+    flex-direction: column;
+  }
 
 .drum-set__image img{
     display: block;
@@ -72,8 +82,7 @@
     background-color: rgb(36, 36, 36);
     border-radius: 5px;
     cursor: pointer;
-    padding: 16px 24px;
-    margin: 10px;
+    padding: 16px 24px;    
     margin-top: 45px;
     display: inline-flex;
     justify-content: start;
@@ -82,10 +91,11 @@
 .drum-set__shop-now-btn:hover{
     background-color: var(--yellow-color);
 }
-.drum-set__btn{
+.drum-set__btn{    
     color: white;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
+
 }
 
