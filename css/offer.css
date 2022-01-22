@@ -1,29 +1,40 @@
 .offer__body {
-    display: flex;
-    margin: 60px -15px 60px -15px;
+    display: block;
+    margin-bottom: 15px;
 }
 
 .offer__column {
-    padding: 0px 15px;
+    padding: 15px 0;
 }
-
-
 
 .offer__item {
     height: 100%;
     padding: 35px;
 }
 
+@media (min-width: 768px) {
+    .offer__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .offer__item {
+        padding: 45px;
+    }
+}
+
 .item-offer-drum {
     background: url('../img/offer/drum-offer.jpg') 0 0/cover no-repeat;
-    width: 570px;
-    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-offer-guitar {
-    background: url('../img/offer/guitar-offer.jpg') -245px 0/cover no-repeat;
-    width: 570px;
-    height: 370px;
+    background: url('../img/offer/guitar-offer.jpg') 0 0/cover no-repeat;
+    background-position: 95% 95%;
 }
 
 .item-offer-drum__title {
@@ -40,6 +51,7 @@
     color: #fff;
     text-align: center;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .item-offer-drum__subtitle span {
@@ -50,14 +62,12 @@
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin: 30px 0 0 0;
-    line-height: 2px;
+    line-height: 1.5;
 }
 
 .item-offer-drum__btn {
-    position: relative;
-    top: 75px;
-    left: 185px;
+    margin-top: 35px;
+    top: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
