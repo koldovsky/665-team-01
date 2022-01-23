@@ -8,11 +8,10 @@
            document.body.classList.toggle('lock'); 
            burgerMenu.classList.toggle('active');
            headerMenu.classList.toggle('active');
-        socialMenu.classList.toggle('active');
+           socialMenu.classList.toggle('active');
     });
-})();
 
-const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
+    const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
 if (menuLinks.length > 0) {
     menuLinks.forEach(menuLink => {
        menuLink.addEventListener("click", onMenuLinkClick);
@@ -24,6 +23,13 @@ if (menuLinks.length > 0) {
             const gotoBlock = document.querySelector(menuLink.dataset.goto);
             const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
             
+            if (burgerMenu.classList.contains('active')) {
+                document.body.classList.remove('lock'); 
+                burgerMenu.classList.remove('active');
+                headerMenu.classList.remove('active');
+                socialMenu.classList.remove('active');
+            }
+
             window.scrollTo({
                top: gotoBlockValue,
                behavior: "smooth"
@@ -32,3 +38,6 @@ if (menuLinks.length > 0) {
         }
     }
 }
+
+})();
+
