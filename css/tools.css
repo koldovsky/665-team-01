@@ -1,0 +1,78 @@
+.a-blocks{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+.blocks__body{
+    display: block;
+    margin-bottom: 15px
+}
+
+.blocks__column{
+    padding: 15px 0;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.block__item{
+    height: 100%;
+    padding: 35px;
+}
+
+@media (min-width: 1000px) {
+    .block__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+.countdown_3O8{
+    display: flex;
+}
+
+
+    .block__item {
+        padding: 45px;
+        
+    }
+}
+
+.item-block-drum{
+    background: url(../img/sticks.png) 7.66% 56.95% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-blocks-guitar{
+    background: url(../img/gitar.png) 0 0/cover no-repeat;
+    background-position: 95% 95%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.item-block-drum__title{
+    font-size: inherit;
+}
+
+
+@media (max-width: 992px){
+    .item-block-drum__subtitle {
+    font-size: inherit;
+}
+}
+
+.item-block-drum__text{
+    color: #242424!important;
+    font-size: inherit;
+}
