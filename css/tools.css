@@ -29,6 +29,13 @@
     padding: 35px;
 }
 
+@media (min-width: 768px) {
+    .block__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
 
 
 .countdown_3O8{
@@ -142,9 +149,7 @@
     margin-bottom: 15px;
 }
 
-.countdown_3O8{
-    
-}
+
 
 .countdown__item_2Sa{
     position: relative;
@@ -153,7 +158,7 @@
 
 
 
-@media (max-width: 992px){
+@media (min-width: 768px){
     .item-block-drum__subtitle {
     font-size: inherit;
 }
@@ -195,19 +200,14 @@
     padding: 0px 15px;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 768px) {
     .services__column-2 {
         flex: 0 1 50%;
         margin-bottom: 30px;
     }    
 }
 
-@media (max-width: 992px) {
-    .services__column-2 {
-        flex: 1 1 50%;
-        margin-bottom: 30px;
-    }    
-}
+
 
 .services__item-5 {
     height: 100%;
@@ -250,9 +250,5 @@
 
 .pic{
     display: block;
-    width: 100%;
-}
-
-img{
-    vertical-align: top;
+    width: 50%;
 }
