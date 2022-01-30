@@ -43,7 +43,7 @@
 
 
 .item-block-drum{
-    background: url('../img/sticks.png') 0 0/cover no-repeat;
+    background: url('../img/tools/sticks.png') 0 0/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +53,7 @@
 }
 
 .item-blocks-guitar{
-    background: url('../img/gitar.png') 0 0/cover no-repeat;
+    background: url('../img/tools/gitar.png') 0 0/cover no-repeat;
     background-position: 95%;
     
 }
