@@ -1,0 +1,23 @@
+.brands__img {
+    max-width: 250px;
+
+}
+
+.brands__carousel {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+@media (min-width: 500px) {
+    .brands__carousel-slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 750px) {
+    .brands__carousel-slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
