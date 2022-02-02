@@ -35,6 +35,14 @@
              if (window.innerWidth >= 750) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += slides[thirdSlideIdx]; 
+                if (window.innerWidth >= 990) {
+                    const fourSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
+                    slideContainer.innerHTML += slides[fourSlideIdx];
+                    const fiveSlideIdx = fourSlideIdx + 1 >= slides.length ? 0 : fourSlideIdx + 1;
+                    slideContainer.innerHTML += slides[fiveSlideIdx];
+                    const sixSlideIdx = fiveSlideIdx + 1 >= slides.length ? 0 : fiveSlideIdx + 1;
+                    slideContainer.innerHTML += slides[sixSlideIdx];
+                 }  
              }
          }
     }

@@ -1,6 +1,21 @@
 .brands__img {
     max-width: 250px;
+    max-height: 121px;
+    display: block;
+}
 
+.brands__carousel-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.brands__carousel-forward {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
 
 .brands__carousel {
@@ -19,5 +34,16 @@
     .brands__carousel-slide-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 990px) {
+    .brands__carousel-slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .brands__img {
+        max-width: 165px;
+        max-height: 83px;
     }
 }
