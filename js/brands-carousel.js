@@ -1,25 +1,25 @@
 (function() {
    const slides = [
             `<div class="brands__body">
-                <img class="brands__img" src="../img/brands/parker.svg" alt="parker">
+                <img class="brands__img" src="img/brands/parker.svg" alt="parker">
             </div>`,
             `<div class="brands__body">
-                 <img class="brands__img" src="../img/brands/musiccountry.svg" alt="musiccountry">
+                 <img class="brands__img" src="img/brands/musiccountry.svg" alt="musiccountry">
             </div>`,
             `<div class="brands__body">
-                 <img class="brands__img" src="../img/brands/daguisto.svg" alt="daguisto">
+                 <img class="brands__img" src="img/brands/daguisto.svg" alt="daguisto">
             </div>`,
              `<div class="brands__body">
-                 <img class="brands__img" src="../img/brands/dmx.svg" alt="dmx">
+                 <img class="brands__img" src="img/brands/dmx.svg" alt="dmx">
              </div>`,
             `<div class="brands__body">
-                 <img class="brands__img" src="../img/brands/sonymusic.svg" alt="sony">
+                 <img class="brands__img" src="img/brands/sonymusic.svg" alt="sony">
             </div>`,
             `<div class="brands__body">
-                 <img class="brands__img" src="../img/brands/guitarcenter.svg" alt="guitarcenter">
+                 <img class="brands__img" src="img/brands/guitarcenter.svg" alt="guitarcenter">
             </div>`,
             `<div class="brands__body">
-                 <img class="brands__img" src="../img/brands/v2.svg" alt="v2">
+                 <img class="brands__img" src="img/brands/v2.svg" alt="v2">
             </div>`,
 
    ];
