@@ -1,0 +1,23 @@
+.orchestric-sale-block {
+    background: url('../img/orchestric-sale/orchestric.jpeg');
+    padding: 30px;
+    line-height: 2em;
+    background-size: cover;
+    background-position: center;
+}
+
+.orchestric-sale-block__title {
+    color: #ffffffc4;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.orchestric-sale-block__subtitle {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.orchestric-sale-block__subtitle span {
+    color: var(--yellow-color);
+}
