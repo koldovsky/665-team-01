@@ -15,47 +15,63 @@
     display: flex;   
     width: calc(100%+30px);
     overflow: scroll;
+    border-bottom: solid 1px rgb(117, 117, 117);
 }    
 
 .best-prices__product-cards{
     display: grid;
-    grid-template-columns: 1fr;    
+    grid-template-columns: 1fr;
+ }
+
+.best-prices__product-card{
+    margin-top: 50px;
+    padding: auto 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: flex-start;    
+}
+
+.content-electric-guitars,
+.content-acoustic-guitars,
+.content-drums,
+.content-orchestric,
+.content-other{
+    display: none;
+}
+
+.content-active {
+    display: grid;
+    justify-content: center;    
 }
 
 @media (min-width: 657px){
     .best-prices__tab-nav{
          justify-content: center;
-    }
+    }     
 }
 
 @media (min-width: 768px){
-    .best-prices__product-cards{
-        grid-template-columns: 1fr 1fr;        
-    }
-    .best-prices__product-card{
-        margin-top: 30px;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
+    .content-active{
+        grid-template-columns: 1fr 1fr;       
+    }            
     .best-prices__tab-nav{
         overflow: hidden;
     }
 }
 
 @media (min-width: 992px){
-    .best-prices__product-cards{
-        grid-template-columns: repeat(4, 1fr);        
+    .content-active{
+        grid-template-columns: repeat(4, 1fr);     
     }
     .best-prices__product-card{
         margin-top: 30px;
         margin-right: 15px;
         margin-left: 15px;
     }
-}
-
-.best-prices__product-card{
-    margin-top: 50px;
-    padding: auto 15px;
 }
 
 .best-prices h2{
@@ -85,16 +101,20 @@
     padding: 15px 20px;
     white-space: nowrap;       
 }
-
 .best-prices__product-card-photo{
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
-
+img{
+    max-width: 100%;
+}
 .best-prices__product-card-name{
     margin-top: 8px;
     font-size: 18px;
     color: rgb(119,119,119);
+}
+.best-prices__product-card-name:hover{
+    text-decoration: underline;
 }
 
 .best-prices__product-card-link{
@@ -113,9 +133,8 @@
     border-radius: 5px;
     cursor: pointer;
     padding: 16px 24px;    
-    margin-top: 24px;
-    display: inline-flex;
-    justify-content: start;
+    margin-top: 24px;    
+    
 }
 
 .add-to-cart__btn:hover{
@@ -134,3 +153,8 @@
     background-color: var(--yellow-color);
     margin: 15px 0;
 }
+.tab-nav-active {
+    font-weight: bold;
+    border-bottom: solid 3px var(--yellow-color);
+}
+
