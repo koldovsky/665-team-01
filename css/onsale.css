@@ -1,0 +1,178 @@
+.onsale__body {
+   margin-top: 80px;
+}
+
+.onsale__promoution {
+    /*padding: 15px;*/
+    
+}
+.item-onsale {
+    margin-top: 30px;
+    border: 1px solid silver;
+    padding: 35px 15px;
+}
+
+.onsale__item {
+    margin: 30px 0 30px;
+}
+
+.item-onsale__title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    color: var(--yellow-color);
+}
+
+.item-onsale__subtitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 34px;
+    color: var(--main-color);
+    margin: 15px 0;
+}
+
+.item-onsale__text {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    margin: 15px 0 15px;
+}
+
+.item-onsale__clock {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.item-onsale__clock small {
+    color: #777777;
+}
+
+.time {
+    border-right: 1px solid silver;
+    padding: 10px;
+}
+
+.item-instruments__img img {
+   width: 100%;
+}
+
+.item-instruments__title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    margin: 8px 0 0;
+}
+
+.item-instruments__price {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    color: var(--yellow-color);
+    margin: 16px 0 0;
+}
+
+
+
+.item-instruments__btn {
+    background-color: rgb(36, 36, 36);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 16px 24px;    
+    margin-top: 24px;
+    display: inline-flex;
+    justify-content: start;
+}
+
+.item-instruments__btn:hover{
+    background-color: var(--yellow-color);
+}
+
+.item-instruments__btn a{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media (min-width: 500px) {
+   .onsale__cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+}
+
+@media (min-width: 768px) {
+    .onsale__cards {
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr;
+             gap: 15px;
+         }
+ }
+
+@media (min-width: 990px) {
+    .onsale__body {
+        display: flex;
+        flex: 1 1 50%;
+    }
+
+    .onsale__cards {
+        margin-left: 10px;
+        flex: 1 1 50%;
+    }
+
+    .onsale__promoution {
+        max-width: 350px;
+        max-height: 450px;
+    }
+
+    .item-onsale {
+        padding: 70px 15px;
+    }
+}
+
+
+@media (min-width: 1020px) {
+    .item-onsale {
+        padding: 80px 15px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .item-onsale {
+        padding: 85px 15px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .item-onsale {
+        padding: 90px 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .onsale__promoution {
+        width: 550px;
+        max-height: 450px;
+    }
+    .item-onsale {
+        padding: 90px 15px;
+    }
+}
+
+.time h2 {
+    margin: 0 0 5px;
+  }
+
+  @media (max-width: 500px) {
+    .time {
+      margin: 5px;
+    }
+  
+    .time h2 {
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    .time small {
+      font-size: 10px;
+    }
+  }  
