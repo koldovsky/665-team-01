@@ -111,44 +111,68 @@
 @media (min-width: 990px) {
     .onsale__body {
         display: flex;
+        flex: 1 1 50%;
     }
 
     .onsale__cards {
         margin-left: 10px;
+        flex: 1 1 50%;
     }
 
     .onsale__promoution {
-        width: 300px;
-        height: 100%;
+        max-width: 350px;
+        max-height: 450px;
     }
 
-    .item-onsale {
-        padding: 68px 15px;
-    }
-}
-
-@media (min-width: 1028px) {
-    .onsale__promoution {
-        width: 350px;
-        height: 100%;
-    }
-    .item-onsale {
-        padding: 74px 15px;
-    }
-}
-
-@media (min-width: 1130px) {
     .item-onsale {
         padding: 70px 15px;
     }
-    .onsale__promoution {
-        width: 450px;
-        height: 100%;
+}
+
+
+@media (min-width: 1020px) {
+    .item-onsale {
+        padding: 80px 15px;
     }
 }
 
-@media (min-width: 1172px) {
+@media (min-width: 1080px) {
     .item-onsale {
-        padding: 75px 15px;
+        padding: 85px 15px;
     }
 }
+
+@media (min-width: 1080px) {
+    .item-onsale {
+        padding: 90px 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .onsale__promoution {
+        width: 550px;
+        max-height: 450px;
+    }
+    .item-onsale {
+        padding: 90px 15px;
+    }
+}
+
+.time h2 {
+    margin: 0 0 5px;
+  }
+
+  @media (max-width: 500px) {
+    .time {
+      margin: 5px;
+    }
+  
+    .time h2 {
+      font-size: 12px;
+      margin: 0;
+    }
+  
+    .time small {
+      font-size: 10px;
+    }
+  }  
