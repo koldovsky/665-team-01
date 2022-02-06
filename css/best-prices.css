@@ -105,7 +105,7 @@
     display: block;
     max-width: 100%;
 }
-img{
+.best-prices__product-cards  img{
     max-width: 100%;
 }
 .best-prices__product-card-name{
