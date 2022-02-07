@@ -15,7 +15,7 @@
     display: flex;   
     width: calc(100%+30px);
     overflow: scroll;
-    border-bottom: solid 1px rgb(117, 117, 117);
+    border-bottom: solid 2px rgba(177, 173, 173, 0.5);
 }    
 
 .best-prices__product-cards{
@@ -93,13 +93,14 @@
     font-weight: 400;
 }
 
-.tab-nav{
+.tab-nav, .best-prices__currency, .best-prices__convert{
     display: block;
     color: rgb(119,119,119);
     font-size: 16px;
     font-weight: 400;
     padding: 15px 20px;
-    white-space: nowrap;       
+    white-space: nowrap; 
+    cursor: pointer;      
 }
 .best-prices__product-card-photo{
     display: block;
@@ -156,5 +157,9 @@
 .tab-nav-active {
     font-weight: bold;
     border-bottom: solid 3px var(--yellow-color);
+}
+.currencyBlock{
+    display: flex;
+    border: solid 2px rgb(36,36,36);
 }
 

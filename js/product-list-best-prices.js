@@ -1,14 +1,14 @@
 (function () {
     let products;
-
+    let rate =1;    
     async function loadProducts() {
         const response = await fetch('products-accordion-best-prices.json');
         products = await response.json();
-        renderProducts(products);
+        renderProducts();
     }
 
-    function renderProducts(products) {
-        for (const product of products) {
+    function renderProducts() {      
+            for (const product of products) {            
             const productsCardBody = `
         <div class="best-prices__product-card">
           <a href="#" class="best-prices__product-card-link">
@@ -18,25 +18,25 @@
               ${product.title}
             </p>
           </a>
-          <p class="best-prices__product-card-price">${product.price}</p>
+          <p class="best-prices__product-card-price">${(product.price * rate).toFixed(2)}</p>
           <div class="add-to-cart__btn">
             <a href="#">Add to Cart</a>
           </div>
-        </div>`;
+        </div>`;              
             if (product.id < 5) {
-                let productsContainer = document.querySelector('.content-electric-guitars');
+               let productsContainer = document.querySelector('.content-electric-guitars');                
                 productsContainer.innerHTML += productsCardBody;
             } else if (product.id >= 5 && product.id < 9) {
-                let productsContainer = document.querySelector('.content-acoustic-guitars');
+                 productsContainer = document.querySelector('.content-acoustic-guitars');
                 productsContainer.innerHTML += productsCardBody;
             } else if (product.id >= 9 && product.id < 13) {
-                let productsContainer = document.querySelector('.content-drums');
+                productsContainer = document.querySelector('.content-drums');
                 productsContainer.innerHTML += productsCardBody;
             } else if (product.id >= 13 && product.id < 17) {
-                let productsContainer = document.querySelector('.content-orchestric');
+                productsContainer = document.querySelector('.content-orchestric');
                 productsContainer.innerHTML += productsCardBody;
             } else if (product.id >= 17 && product.id < 21) {
-                let productsContainer = document.querySelector('.content-other');
+                productsContainer = document.querySelector('.content-other');
                 productsContainer.innerHTML += productsCardBody;
             }
         }
@@ -59,6 +59,16 @@
         })
     }
 
-    loadProducts(products);
+    document.querySelector('.best-prices__convert').addEventListener('click', convertCurrency);
+
+    async function convertCurrency() {
+       const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD')
+       const currencies = await response.json();
+       const convertTo = document.querySelector('.best-prices__currency').value;
+       rate = currencies.rates[convertTo];
+       renderProducts();
+    }
+
+    loadProducts();
 
 })();

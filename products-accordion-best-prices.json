@@ -3,140 +3,140 @@
        "id":"1",
        "title":"Raven Bee RB500 Exotic Style Guitar",
        "imgUrl":"img/best-prices/Raven-Bee-RB500.jfif",
-       "price":"$450.00",
+       "price":"450.00",
        "class":"electric-guitar"
     },
     {
        "id":"2",
        "title":"Dickson Studio ER100 Electric Guitar",
        "imgUrl":"img/best-prices/Dickson-Studio-ER100.jfif",
-       "price":"$180.00",
+       "price":"180.00",
        "class":"electric-guitar"
     },
     {
        "id":"3",
        "title":"Dean Doe TRO4506 Electric Guitar",
        "imgUrl":"img/best-prices/Dean-Doe-TRO4506.jfif",
-       "price":"$220.00",
+       "price":"220.00",
        "class":"electric-guitar"
     },
     {
        "id":"4",
        "title":"Raven Classic RT45 Electric Guitar",
        "imgUrl":"img/best-prices/Raven-Classic-RT45.jfif",
-       "price":"$300.00",
+       "price":"300.00",
        "class":"electric-guitar"
     },
     {
        "id":"5",
        "title":"Deanson VV02 Acoustic Guitar",
        "imgUrl":"img/best-prices/Deanson-VV02-Acoustic-Guitar.jfif",
-       "price":"$112.00",
+       "price":"112.00",
        "class":"acaustic-guitar"
     },
     {
        "id":"6",
        "title":"Kuro Music Studio S-35 Acoustic Guitar",
        "imgUrl":"img/best-prices/Kuro-music-studio-S-35-acoustic-guitar.jfif",
-       "price":"$105.00",
+       "price":"105.00",
        "class":"acaustic-guitar"
     },
     {
        "id":"7",
        "title":"Raven RT1 Acoustic-Electric Guitar",
        "imgUrl":"img/best-prices/Raveb-RT1-Acoustic-Electric-Guitar.jfif",
-       "price":"$110.00",
+       "price":"110.00",
        "class":"acaustic-guitar"
     },
     {
        "id":"8",
        "title":"Fogue RA-090 Acoustic Guitar",
        "imgUrl":"img/best-prices/Fogue-RA-090-Acoustic-Guitar.jfif",
-       "price":"$110.00",
+       "price":"110.00",
        "class":"acaustic-guitar"
     },
     {
        "id":"9",
        "title":"BlueWater BWL1000 Ultimate Snare Drum",
        "imgUrl":"img/best-prices/drum-bluewater-bwl100.jfif",
-       "price":"$145.00",
+       "price":"145.00",
        "class":"drums"
     },
     {
        "id":"10",
        "title":"Ericson Black&White Snare Drum",
        "imgUrl":"img/best-prices/drum-ericson-b&w.png",
-       "price":"$115.00",
+       "price":"115.00",
        "class":"drums"
     },
     {
        "id":"11",
        "title":"Ericson White Crystal Snare Drum",
        "imgUrl":"img/best-prices/drum-ericson-white.jfif",
-       "price":"$115.00",
+       "price":"115.00",
        "class":"drums"
     },
     {
        "id":"12",
        "title":"Ericson Beech Wood Snare Drum",
        "imgUrl":"img/best-prices/drum-ericson-beech-wood.jfif",
-       "price":"$115.00",
+       "price":"115.00",
        "class":"drums"
     },
     {
        "id":"13",
        "title":"Dony Stavanger SRT12 Alto Saxophone",
        "imgUrl":"img/best-prices/dony-stavanger-srt12.jfif",
-       "price":"$450.00",
+       "price":"450.00",
        "class":"orchestric"
     },
     {
        "id":"14",
        "title":"Simona SR-V Proffesionall Violin",
        "imgUrl":"img/best-prices/simona-srv-v-proffesional-bass-horn.jfif",
-       "price":"$700.00",
+       "price":"700.00",
        "class":"orchestric"
     },
     {
        "id":"15",
        "title":"AER B-Flat Proffecional Bass Horn",
        "imgUrl":"img/best-prices/aer-b-flat-proffesional-bass-horn.jfif",
-       "price":"$300.00",
+       "price":"300.00",
        "class":"orchestric"
     },
     {
        "id":"16",
        "title":"Muratti Professional MB Oboe",
        "imgUrl":"img/best-prices/muratti-proffesional-mb-oboe.jfif",
-       "price":"$900.00",
+       "price":"900.00",
        "class":"orchestric"
     },
     {
        "id":"17",
        "title":"Jiwa Studio JWL100 Single Row Tambourine",
        "imgUrl":"img/best-prices/jiwa-studio-jwl100.jfif",
-       "price":"$50.00",
+       "price":"50.00",
        "class":"other"
     },
     {
        "id":"18",
        "title":"Kurumba KK400 Bongo Drum in Green",
        "imgUrl":"img/best-prices/kurumba-kk400.jfif",
-       "price":"$89.00",
+       "price":"89.00",
        "class":"other"
     },
     {
        "id":"19",
        "title":"Bosner AT1 Accordion in Gold",
        "imgUrl":"img/best-prices/bosner-at1-accordion.jfif",
-       "price":"$160.00",
+       "price":"160.00",
        "class":"other"
     },
     {
        "id":"20",
        "title":"Hohner Silver Star ERX3 Harmonica",
        "imgUrl":"img/best-prices/hohner-silver-star-harmonica.jfif",
-       "price":"$67.00",
+       "price":"67.00",
        "class":"other"
     }
  ]
