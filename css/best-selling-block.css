@@ -12,28 +12,45 @@
 
 .best-selling__cards {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
 }
 
+.best-selling__carousel-back, .best-selling__carousel-forward{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
 @media (min-width: 768px){
-    .best-selling__cards{
-        grid-template-columns: 1fr 1fr;        
-    }
     .best-selling__card{
         margin-top: 30px;
         margin-right: 15px;
         margin-left: 15px;
     }
+    .best-selling__carousel-slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 850px){
+    .best-selling__carousel-slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
 
 @media (min-width: 992px){
-    .best-selling__cards{
-        grid-template-columns: repeat(4, 1fr);        
-    }
-    .best-selling__card{
+       .best-selling__card{
         margin-top: 30px;
         margin-right: 15px;
         margin-left: 15px;
+    }
+    .best-selling__carousel-slide-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
