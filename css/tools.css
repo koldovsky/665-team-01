@@ -1,5 +1,5 @@
 .a-blocks{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 20px;
 }
 
@@ -12,7 +12,8 @@
 
 
 .blocks__body{
-    display: flex;
+    display: block;
+    /* display: flex; */
     margin-bottom: 15px;
     
 }
@@ -20,8 +21,8 @@
 .blocks__column{
     padding: 15px 0;
     display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
+    /* -webkit-box-pack: center;
+    justify-content: center; */
 }
 
 .block__item{
@@ -30,39 +31,49 @@
 }
 
 @media (min-width: 768px) {
-    .block__body {
+    .blocks__body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
     }
-
-
+    .block__item {
+        padding: 45px;
+    }
+}
 
 .countdown_3O8{
     display: flex;
 }
 
 
-    .block__item {
+    /* .block__item .item-blocks-guitar {
         padding: 45px;
-       
-    }
+    } */
 
 
-.item-block-drum{
+/* .item-block-drum{
     background: url('../img/tools/sticks.png') 0 0/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     justify-content: center;
+} */
+
+.item-block-drum{
+    background: url('../img/tools/sticks.png') 0 0/cover no-repeat;
+    background-position: 95% 95%;
+    /* width: 600px; */
+    
+
 }
 
 .item-blocks-guitar{
     background: url('../img/tools/gitar.png') 0 0/cover no-repeat;
-    background-position: 95%;
+    background-position: 95% 95%;
+    /* width: 600px; */
     
+
 }
 
 .item-block-drum__title {
@@ -115,7 +126,6 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     color: #fff;
-    
     font-weight: 600;
     margin-bottom: 15px;
 }
