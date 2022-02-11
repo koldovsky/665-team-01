@@ -20,7 +20,7 @@
 
 .blocks__column{
     padding: 15px 0;
-    display: flex;
+    
     /* -webkit-box-pack: center;
     justify-content: center; */
 }
@@ -63,6 +63,8 @@
 .item-block-drum{
     background: url('../img/tools/sticks.png') 0 0/cover no-repeat;
     background-position: 95% 95%;
+    padding-top: 10px;
+    padding-left: 20px;
     /* width: 600px; */
     
 
@@ -71,6 +73,9 @@
 .item-blocks-guitar{
     background: url('../img/tools/gitar.png') 0 0/cover no-repeat;
     background-position: 95% 95%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
     /* width: 600px; */
     
 
@@ -79,7 +84,7 @@
 .item-block-drum__title {
     font-family: 'Work Sans', sans-serif;
     font-size: 0.75em;
-    color: var(--yellow-color);
+    color: #808080;
     text-align: center;
     margin: 25px 0 15px 0;
     vertical-align: baseline;
@@ -87,7 +92,7 @@
 
 .item-block-drum__subtitle {
     font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     color: #000;
     text-align: center;
     font-weight: 600;
@@ -113,7 +118,10 @@
 
 }
 
+
+
 .item-blocks-guitar__title {
+   
     font-family: 'Work Sans', sans-serif;
     font-size: 0.75em;
     color: #fff;
@@ -123,6 +131,7 @@
 }
 
 .item-blocks-guitar__subtitle{
+    
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     color: #fff;
@@ -131,6 +140,7 @@
 }
 
 .item-blocksr-guitar__subtitle{
+   
     font-family: 'Work Sans', sans-serif;
     font-size: 40px;
     color: #fff;
@@ -144,6 +154,7 @@
 }
 
 .w-text-block{
+    
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     color: #f8b803;
@@ -152,6 +163,8 @@
 }
 
 .w-text-block_2{
+    padding-top: 10px;
+    padding-left: 20px;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     color: #e2e2e2;
@@ -183,7 +196,8 @@
 .item-block-guitar__btn {
     margin-top: 35px;
     top: 15px;
-    display: inline-flex;
+    margin: 10px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: #fff;
@@ -201,18 +215,23 @@
 
 
 .services__body-1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-wrap: wrap;
-    margin: 60px -15px 60px -15px;
+    margin: 0px -15px 60px -15px;
+    /* white-space: nowrap; */
 }
 
 .services__column-2 {
     padding: 0px 15px;
+    display: inline-block;
+    vertical-align: middle;
+    
 }
 
 @media (min-width: 768px) {
     .services__column-2 {
-        flex: 0 1 50%;
+        /* flex: 0 1 50%; */
         margin-bottom: 30px;
     }    
 }
@@ -260,5 +279,18 @@
 
 .pic{
     display: block;
-    width: 100%;
+    width: 50%;
+}
+
+.item-onsale__clock_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 60px;
+   
+}
+
+.time-1 {
+    border-right: 1px solid silver;
+    padding: 10px;
 }
