@@ -1,24 +1,11 @@
 (function () {
-   const products = [
-       {
-           id: "1",
-           title: "Dowson DDR100 Acoustic Guitar",
-           imgUrl: "img/onsale/dowsonddr300.jpeg",
-           price: "$180.00"
-       },
-       {
-           id: "2",
-           title: "AER B-Flat Professional Bass Horn",
-           imgUrl: "img/onsale/AERBFlat.jpeg",
-           price: "$300.00"
-       },
-       {
-           id: "3",
-           title: "Lewis Lewel ST-1 Student Violin",
-           imgUrl: "img/onsale/LewisLewelST-1.jpeg",
-           price: "$200.00"
-       },
-   ]
+  
+    async function loadProducts() {
+      const response = await fetch('products-onsale.json');
+      const products = await response.json();
+      renderProducts(products);
+    }
+      
 
    function renderProducts(products) {
        const prodactsContainer = document.querySelector(".onsale__cards");
@@ -38,5 +25,5 @@
        }
    }
 
-    renderProducts(products);
+    loadProducts();
 })();
