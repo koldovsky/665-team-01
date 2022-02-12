@@ -1,10 +1,10 @@
 (function () { 
     "use strict";
 
-    const days = document.getElementById('days');
-    const hours = document.getElementById('hours');
-    const minutes = document.getElementById('minutes');
-    const seconds = document.getElementById('seconds');
+    const days = document.getElementById('days-onsale');
+    const hours = document.getElementById('hours-onsale');
+    const minutes = document.getElementById('minutes-onsale');
+    const seconds = document.getElementById('seconds-onsale');
     
     const currentYear = new Date().getFullYear();
     
