@@ -31,8 +31,8 @@
               </div>
             </div>`,
         `<div class="best-selling__card">
-              <img class="preview-img" alt="Jiwa Studio JWL100 Single Row Tambourine" src="img/tamb.jpeg">
-              <p class="best-selling__subheading">Jiwa Studio JWL100 Single Row Tambourine</p>
+              <img class="preview-img" alt="Jiwa Studio JWL100 Tambourine" src="img/tamb.jpeg">
+              <p class="best-selling__subheading">Jiwa Studio JWL100 Tambourine</p>
               <div class="best-selling__price">
                 <p>$50.00</p>
               </div>
