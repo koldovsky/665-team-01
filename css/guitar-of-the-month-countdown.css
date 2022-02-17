@@ -8,8 +8,12 @@
     gap: 5px;
 }
 
-.countdown-item {
+.countdown-item-days, .countdown-item-hours, .countdown-item-minutes, .countdown-item-seconds {
     flex-grow: 4;
+}
+
+.countdown-item-days, .countdown-item-hours, .countdown-item-minutes {
+    border-right: 1px solid rgb(107, 107, 107);
 }
 
 .countdown-dates {
@@ -29,3 +33,4 @@
     fill: currentColor;
     text-anchor: middle;
 }
+
