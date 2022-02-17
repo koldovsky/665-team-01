@@ -5,7 +5,6 @@
     align-items: center;
     width: 100%;
     margin-top: 40px;
-    gap: 5px;
 }
 
 .countdown-item-days, .countdown-item-hours, .countdown-item-minutes, .countdown-item-seconds {
@@ -17,19 +16,17 @@
 }
 
 .countdown-dates {
-    font-family: "Work Sans", sans-serif;
     font-size: 36px;
     color: #fff;
     font-weight: 600;
 }
 
 .countdown-text {
-    font-family: "Work Sans", sans-serif;
     font-size: 18px;
     color: rgb(107, 107, 107);
-    text-align: center;
 }
 .countdown-dates, .countdown-text {
+    font-family: "Work Sans", sans-serif;
     fill: currentColor;
     text-anchor: middle;
 }
