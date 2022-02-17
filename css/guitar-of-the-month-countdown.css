@@ -1,0 +1,31 @@
+.countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    gap: 5px;
+}
+
+.countdown-item {
+    flex-grow: 4;
+}
+
+.countdown-dates {
+    font-family: "Work Sans", sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.countdown-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    text-align: center;
+}
+.countdown-dates, .countdown-text {
+    fill: currentColor;
+    text-anchor: middle;
+}
